@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { Text, View } from "react-native"
 import RNPickerSelect from 'react-native-picker-select'
 import firestore from '@react-native-firebase/firestore'
+import { Colors } from "../../assets/whiteLabel/colors"
 
 export default function DropDown() {
 
@@ -47,13 +48,13 @@ export default function DropDown() {
                 })}
                 style={{
                     viewContainer: {
-                        backgroundColor: '#EB8350',
+                        backgroundColor: Colors.input.background.primary,
                         paddingHorizontal: 100,
                         paddingVertical:12,
                         borderRadius:10,
                     },
                     placeholder: {
-                        color: '#112D2C',
+                        color: Colors.input.background.secondary,
                         fontSize:16,
                     },
                     inputIOS:{

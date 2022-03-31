@@ -7,6 +7,8 @@ export const KeyboardView = styled.KeyboardAvoidingView`
     justify-content: center;
     align-items: center;
     background-color: ${Colors.main.secondary};
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 `
 
 export const ViewLogo = styled.View `
@@ -29,7 +31,9 @@ export const ButtonToggle = styled.TouchableOpacity `
     justify-content: center;
     align-items: center;
     height: 50px;
+    border-radius: 20px;
     background-color: ${props => props.selected ? Colors.button.background.primary : Colors.button.background.secondary};
+    border: ${props => props.selected ? '1px solid ' + Colors.main.secondary : '0px'}
 `
 
 export const ButtonToggleText = styled.Text `

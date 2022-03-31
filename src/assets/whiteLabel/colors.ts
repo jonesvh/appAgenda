@@ -1,8 +1,8 @@
 export const Colors = {
     main: {
-        primary: '#7E97FF',
-        secondary: '#EB8350',
-        tertiary: '#D3EEFF'
+        primary: '#ffffff',
+        secondary: '#44749d',
+        tertiary: '#FA757C'
     },
 
     label: {
@@ -12,8 +12,8 @@ export const Colors = {
 
     button: {
         background: {
-            primary: '#fff',
-            secondary: '#123abc'
+            primary: '#ffffff',
+            secondary: '#44749d'
         },
         text: {
             primary: '#111',
@@ -23,7 +23,7 @@ export const Colors = {
 
     input: {
         background: {
-            primary: '#fff',
+            primary: '#c6d4e1',
             secondary: '#111'
         },
         text: {
